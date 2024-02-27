@@ -1,0 +1,39 @@
+body{
+    
+    background-image: url("backImg.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+   }
+
+
+.header{
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 20px;
+    
+    
+    
+}
+h1{
+    background-color: black;
+    color: rgb(253, 170, 184);
+    width: fit-content;
+    padding: 10px;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color:rgb(119, 221, 255);
+    
+}
+canvas{
+    margin-bottom: 30px;
+}
